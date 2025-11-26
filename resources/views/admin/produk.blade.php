@@ -11,7 +11,7 @@
 @section('content_body')
     <p>Welcome to this produk panel.</p>
     <div class="mb-2">
-        <a href="/admin/add-produk" class="btn btn-xs btn-primary text-white mx-1 py-2 shadow" title="Tambah Data Produk">
+        <a href="/admin/produk/add" class="btn btn-xs btn-primary text-white mx-1 py-2 shadow" title="Tambah Data Produk">
                 <i class="fa fa-lg fa-fw fa-plus"></i>
                 Tambah Data Produk
             </a>

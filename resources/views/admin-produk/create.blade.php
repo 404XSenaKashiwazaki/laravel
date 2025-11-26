@@ -10,10 +10,20 @@
 
 @section('content_body')
     <p>Halaman Tambah Produk</p>
-    <div>My admin panel</div>
-    <form action="" method="post">
-        <input type="text" class="">
-    </form>
+<div class="space-y-2 w-50">
+    <form action="{{ }}" method="post">
+<x-adminlte-input name="nama" type="text" label="Nama" placeholder="Masukan nama produk"/>
+<x-adminlte-input name="deskripsi" type="text" label="Deskripsi" placeholder="Masukan deskripsi produk"/>
+<x-adminlte-input name="harga" type="number" label="Harga" placeholder="Masukan harga produk"/>
+<x-adminlte-input-file name="file" label="Gambar" />
+    <x-adminlte-button type="submit" label="Simpan" theme="primary" icon="fas fa-paper-plane"/>
+</form>
+</div>
+
+
+
+
+
 @stop
 
 {{-- Push extra CSS --}}
